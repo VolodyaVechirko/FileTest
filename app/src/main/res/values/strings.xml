@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FileTest</string>
+
+    <string name="action_photo">Photo</string>
+    <string name="action_video">Video</string>
+    <string name="action_file">File</string>
+    <string name="action_settings">Settings</string>
+</resources>

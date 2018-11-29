@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_margin="4dp"
+        android:layout_height="200dp">
+
+    <ImageView
+            android:id="@+id/imgThumb"
+            android:layout_width="match_parent"
+            tools:src="@mipmap/ic_launcher"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"/>
+
+    <ImageView
+            android:id="@+id/btnDownload"
+            android:layout_width="48dp"
+            android:layout_gravity="end|top"
+            android:background="#33000000"
+            android:scaleType="centerInside"
+            android:src="@android:drawable/stat_sys_download"
+            android:layout_height="48dp"/>
+
+</FrameLayout>
